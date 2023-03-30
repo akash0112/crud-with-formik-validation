@@ -56,6 +56,7 @@ const Table = () => {
             </tbody>
           ))}
       </table>
+          <div className="text-center fs-2 fw-bold text-success">{user.length<=0 && 'There is no data'}</div>
     </div>
   );
 };
