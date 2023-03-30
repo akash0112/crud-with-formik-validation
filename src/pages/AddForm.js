@@ -53,7 +53,7 @@ const AddForm = () => {
         contact: editUserData[0].contact,
       });
     }
-  }, [editUserData]);
+  }, [editUserData,setValues]);
 
   return (
     <div className="mt-4 card p-2">
