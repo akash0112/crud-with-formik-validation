@@ -4,7 +4,6 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js";
 import { PersistGate } from "redux-persist/lib/integration/react";
 import persistStore from "redux-persist/lib/persistStore";
 import { Provider } from "react-redux";
